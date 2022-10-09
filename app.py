@@ -6,7 +6,7 @@ import sklearn
 import sklearn.ensemble.forest
 
 # load the model from disk
-loaded_model=pickle.load(open('random_forest_regression_model.pkl', 'rb'))
+loaded_model=pickle.load(open('random_forest_regression_model1.pkl', 'rb'))
 app = Flask(__name__)
 
 @app.route('/')
