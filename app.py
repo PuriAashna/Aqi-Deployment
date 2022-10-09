@@ -3,7 +3,7 @@ import pandas as pd
 
 import pickle
 import sklearn
-import sklearn.ensemble.forest
+import sklearn.ensemble._forest
 
 # load the model from disk
 loaded_model=pickle.load(open('random_forest_regression_model1.pkl', 'rb'))
